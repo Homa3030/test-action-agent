@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aea3c17f24e2e4741ad5ecf8f2f41bf4
+guid: bf9ff37cc0032fd4f9d6db5cfde0245e
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,33 +7,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: blazer
-    second: {fileID: 2100000, guid: dd6a14c7dfb5962419bc65546a8d4814, type: 2}
+      name: cap
+    second: {fileID: 2100000, guid: f6c9f2a09ddd6e34e9f523999950064e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: glasses
-    second: {fileID: 2100000, guid: a7aa4c0fb03cde14cb9679deab71939a, type: 2}
+      name: clothes_black
+    second: {fileID: 2100000, guid: 7df08d3216b2fad47912ec29ad992803, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: hair_black
-    second: {fileID: 2100000, guid: 73d04578e3b5b5447a630e6137237b8f, type: 2}
+      name: clothes_blue
+    second: {fileID: 2100000, guid: f6c9f2a09ddd6e34e9f523999950064e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: hair_brown
+      name: eyes
+    second: {fileID: 2100000, guid: bff6be50203d17243b1fd65a67425577, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair
     second: {fileID: 2100000, guid: 6cb3d254111a853468021733a1b8a8c0, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: pants
-    second: {fileID: 2100000, guid: a7aa4c0fb03cde14cb9679deab71939a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: shoes
-    second: {fileID: 2100000, guid: a7aa4c0fb03cde14cb9679deab71939a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -49,16 +44,16 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 0
+    removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
       does not match position in animation file:\n\t'LeftUpLeg' : position error
-      = 10269.245117 mm\n\t'LeftLeg' : position error = 43455.675781 mm\n\t'LeftFoot'
-      : position error = 40539.304688 mm\n\t'LeftToeBase' : position error = 12336.114258
-      mm\n\t'RightUpLeg' : position error = 10279.333008 mm\n\t'RightLeg' : position
-      error = 43443.937500 mm\n\t'RightFoot' : position error = 40541.625000 mm\n\t'RightToeBase'
-      : position error = 12104.825195 mm\n"
+      = 8737.992188 mm\n\t'LeftLeg' : position error = 41111.253906 mm\n\t'LeftFoot'
+      : position error = 40953.500000 mm\n\t'LeftToeBase' : position error = 15615.806641
+      mm\n\t'RightUpLeg' : position error = 8729.088867 mm\n\t'RightLeg' : position
+      error = 41109.527344 mm\n\t'RightFoot' : position error = 40926.441406 mm\n\t'RightToeBase'
+      : position error = 16094.348633 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -85,7 +80,7 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    nodeNameCollisionStrategy: 0
+    nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -140,7 +135,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  remapMaterialsIfMaterialImportModeIsNone: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
